@@ -1,11 +1,11 @@
-# SQLAlchemy-course
+# SQL alchemy course
 
-It's a SQL toolkit and ORM that gives developers the full power and flexibility of SQL.
+It's a SQL toolkit and ORM that gives developers to use the full power and flexibility of SQL.
 
 
 ### About
 This tutorial will help you to get basic understanding of :
-- what is SQLAlchemy
+- what is SQLAlchemy: It's an object relational mapper which converts python object to sql table and vice-versa.
 - how to use it
 - installation
 - crud operation
@@ -28,7 +28,7 @@ This tutorial will help you to get basic understanding of :
 
 ---
 
-### How to use SQLAlchemy:
+### How to use SQL Alchemy:
 
 - To connect with SQLAlchemy ORM, use create_engine class and provide the basic info like: 
 which sql you want to use, user_name, password, host_name, port, db_name
@@ -65,7 +65,7 @@ which sql you want to use, user_name, password, host_name, port, db_name
         Base.metadata.create_all(engine)
 
 
-#### Part 3: [insert Table]
+#### Part 2: [insert Table]
         
 
 #### Part 3: [read Table]
